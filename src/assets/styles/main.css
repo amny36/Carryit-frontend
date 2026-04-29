@@ -10,26 +10,26 @@
    CSS Custom Properties (Design Tokens)
    ============================================================ */
 :root {
-  /* ---- Brand Palette ---- */
-  --tnh-twilight:      #E9DEEA;
-  --tnh-twilight-deep: #D9C9DB;
-  --tnh-meadow:        #3D5B3E;
-  --tnh-meadow-deep:   #2A4029;
-  --tnh-pink:          #FF4DA6;
-  --tnh-pink-deep:     #E6338C;
+  /* ---- Brand Palette — CarryIt Travel Theme (Indigo · Cream · Gold · Red) ---- */
+  --tnh-twilight:      #F1E7D2;   /* parchment / page bg (was lavender) */
+  --tnh-twilight-deep: #E4D6B8;
+  --tnh-meadow:        #1B2A4A;   /* indigo (was meadow green) */
+  --tnh-meadow-deep:   #0F1B33;
+  --tnh-pink:          #B0392E;   /* stamp red — primary accent (was hot pink) */
+  --tnh-pink-deep:     #8E2C24;
   --tnh-ink:           #0A0A0A;
-  --tnh-paper:         #FAFAF7;
+  --tnh-paper:         #FAF6EC;   /* warm paper white */
 
   /* ---- CarryIt Extensions ---- */
-  --ci-lcd-bg:         #141a14;
-  --ci-lcd-bg-warm:    #1a1410;
-  --ci-phosphor:       #A3D977;
-  --ci-phosphor-dim:   #5a7a3e;
-  --ci-amber:          #E8A94A;
-  --ci-amber-deep:     #C48820;
-  --ci-stamp-red:      #C23B3B;
-  --ci-sky:            #C8DCEA;
-  --ci-paper-warm:     #F2EBDD;
+  --ci-lcd-bg:         #141914;
+  --ci-lcd-bg-warm:    #1A1410;
+  --ci-phosphor:       #E2C883;   /* amber LCD glow (was phosphor green) */
+  --ci-phosphor-dim:   #8C7A4A;
+  --ci-amber:          #C9A24A;   /* gold */
+  --ci-amber-deep:     #9B7A28;
+  --ci-stamp-red:      #9B2A20;
+  --ci-sky:            #C8D4EA;   /* dusty indigo-sky */
+  --ci-paper-warm:     #EFE3C7;   /* boarding-pass cream */
 
   /* ---- Semantic Aliases ---- */
   --bg:                var(--tnh-twilight);

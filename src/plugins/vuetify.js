@@ -51,33 +51,33 @@ export default createVuetify({
       carryit: {
         dark: false,
         colors: {
-          primary:    '#FF4DA6',
-          secondary:  '#3D5B3E',
-          background: '#E9DEEA',
-          surface:    '#FAFAF7',
-          error:      '#C23B3B',
-          warning:    '#E8A94A',
-          success:    '#3D5B3E',
-          info:       '#C8DCEA',
-          'on-primary': '#FAFAF7',
-          'on-secondary': '#FAFAF7',
+          primary:    '#B0392E',  // stamp red (was hot pink)
+          secondary:  '#1B2A4A',  // indigo (was meadow green)
+          background: '#F1E7D2',  // parchment / cream (was lavender)
+          surface:    '#FAF6EC',  // warm paper white
+          error:      '#9B2A20',  // stamp red darker
+          warning:    '#C9A24A',  // gold (was amber)
+          success:    '#1B2A4A',  // indigo (mapped from old success=meadow)
+          info:       '#C8D4EA',  // dusty indigo-sky
+          'on-primary':   '#FAF6EC',
+          'on-secondary': '#FAF6EC',
         },
       },
       carryitDark: {
         dark: true,
         colors: {
-          primary:    '#FF4DA6',
-          secondary:  '#A3D977',
+          primary:    '#B0392E',
+          secondary:  '#E2C883',  // amber-pale (LCD glow) for dark mode
           background: '#121212',
           surface:    '#1e1e1e',
-          error:      '#E55555',
-          warning:    '#E8A94A',
-          success:    '#A3D977',
-          info:       '#7DB8D4',
-          'on-primary': '#FAFAF7',
-          'on-secondary': '#0A0A0A',
+          error:      '#C44A3D',
+          warning:    '#C9A24A',
+          success:    '#E2C883',
+          info:       '#7DA0D4',
+          'on-primary':    '#FAF6EC',
+          'on-secondary':  '#0A0A0A',
           'on-background': '#F0EDE8',
-          'on-surface': '#F0EDE8',
+          'on-surface':    '#F0EDE8',
         },
       },
     },
